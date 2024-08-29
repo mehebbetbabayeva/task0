@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+
+}
+
+body {
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 600px;
+    height: auto;
+    background-color: white;
+    padding: 60px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#productBtn {
+    padding: 12px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.productList {
+    margin: 50px 0;
+    background-color: rgb(226, 221, 221);
+    padding: 20px;
+
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(184, 181, 181);
+    height: 30px;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.deleteBtn {
+    width: 50px;
+    height: 100%;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+}
+
+p {
+    color: rgb(15, 187, 15);
+}
